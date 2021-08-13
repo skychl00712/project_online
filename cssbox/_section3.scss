@@ -1,0 +1,68 @@
+#third_content
+    {width: 100%;
+    background-image: url(images/hospital.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 50px;}
+
+#third_content .third_box
+    {width: 1280px;
+    height: 611px;
+    margin: 0 auto;}
+
+#third_content .third_box .divide
+    {width: 1039px;
+    height: 512px;
+    margin: 0 auto;
+    position: relative;
+    top: 72px;
+    display: flex;
+    justify-content: space-between;}
+#third_content .third_box .divide .text_box1
+    {width: 467px;}
+
+#third_content .third_box .divide .text_box1 h1
+    {font-size: 60px;
+    padding-top: 32px;
+    color: white;}
+
+#third_content .third_box .divide .text_box1 h3
+    {padding-top: 71px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;}
+
+#third_content .third_box .divide .text_box1 a
+    {width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 24px 18px 24px;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    margin-top: 150px;
+    margin-left: 19px;}
+
+
+
+#third_content .third_box .divide .text_box1  a:hover
+    {color: black;
+    background: white;
+    font-weight: bold;}
+
+#third_content .third_box .divide .text_box1  a:active
+    {color: red;}
+
+#third_content .third_box .divide .slide_2
+    {width: 426px;}
+
+#third_content .third_box .divide .slide_2 img
+    {width: 100%;}
+
+    #third_content .third_box .divide .slide_2 h4,p
+    {text-align: center;
+    margin-top: 5px;
+    color: white;}

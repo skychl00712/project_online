@@ -1,0 +1,78 @@
+header
+    {width: 100%;
+    height: 100px;
+    z-index: 999;
+    box-shadow: 2px 2px 2px black;}
+
+header .top_head
+    {width: 1280px;
+        height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;}
+
+header .top_head .logo
+    {
+    margin-top: 20px;
+    margin-left: 50px;}
+
+header .top_head nav
+    {
+    margin-top: 32px;
+    float: right;
+    font-size: 18px;}
+
+header .top_head nav ul
+    {padding-left: 0;}
+
+
+.top_head nav ul > li
+    {width: 8em;
+    float: left;
+    text-align: center;}
+
+.depth2 
+    {position: relative;
+    margin-top: 20px;
+    display: none;}
+
+.depth2 li
+    {padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(255, 255, 255, 0.623);;}
+
+header nav ul li:hover .depth2
+    {display: block;
+    z-index: 100;}
+
+.depth2 a 
+    {color: black;}
+
+.depth2 li a:hover
+    {color: red;
+    font-weight: bold;
+    transition: 0.5s;}
+
+.depth2 li:hover
+    {border-bottom: 3px solid green;
+    transition: 0.2s;}
+
+
+
+/*로그인탭*/
+div.login
+    {background: #ccc;
+    width: 100%;
+    margin: 0 auto;}
+
+div.login > div.zone 
+    {width: 1280px;
+    height: 711px;
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 9px;
+}
+
+div.login > div.zone a
+    {
+        color: black;}

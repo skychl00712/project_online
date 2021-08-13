@@ -1,0 +1,67 @@
+section#first_content
+    {width: 100%;
+    background-image: url(images/mainbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    margin: 0 auto;}
+
+section#first_content .zone_1
+    {width: 1280px;
+    height: 611px;
+    margin: 0 auto;
+    overflow: hidden;}
+
+.carousel-indicators
+  {position: absolute;
+  top: 510px;}
+
+.main_txt
+    {position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    left: -35px;
+    bottom: 370px;
+    text-align: left;
+    color: white;}
+
+.sub_txt
+    {position: absolute;
+    bottom: 250px;
+    left:-30px;
+    font-size: 20px;
+    text-align: left;}
+
+.link_st
+      {position: absolute;
+      bottom: 180px;
+      left:30px;
+      padding: 15px 40px 15px 40px;
+      color: white;
+      border: 1px solid white;
+      border-radius: 30px;}
+
+.link_st:hover
+      {color: black;
+      background: white;}
+
+.link_st:active
+      {font-weight: bold;
+      color: red;}
+
+      #video {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        overflow: hidden;
+   }
+   
+
+
+

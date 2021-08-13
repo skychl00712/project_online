@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>병원소개</title>
+    <!-- 제이쿼리 CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- 자바-->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+     <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- AOD JS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        
+/*sub1-1 병원소개---------------------------------------------------------------------------*/
+   
+
+    #section2{
+        position: relative;
+        text-align: center;
+        height: 680px;
+        
+     
+    }
+    #section2 div h1{
+        position: absolute;
+        left: 45%;
+        font-size: 27px;
+    }
+    #section2 div img{  
+        position: absolute;
+        right:5%;
+        top: 55px;
+        margin-left: 55px;  
+        margin-top: 55px;
+        box-shadow: rgb(179, 179, 179) 2px 4px 8px;
+    }
+    #section2 div h1{
+        padding-top: 60px;
+       
+    }
+    #section2 div .con1Text {
+        position: absolute;
+        text-align: justify;
+        bottom: 120px;
+        left: 170px;
+    }
+    #section2 div .con1Text h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+        line-height: 50px;
+      
+
+    }
+    #section2 div .con1Text p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #section2 > div > img{
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 88px;
+    }
+    #section2 > div > img:last-child{
+        margin-right: 0;
+    }
+
+   
+    
+    #section3 h2{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    
+    #section3 > article > .con2 {
+        display: flex; 
+        margin-bottom: 55px;
+        margin-left: 7.5%;
+        
+    }
+    #section3 > article > .con2 > img{
+        margin-right: 70px;
+    }
+    #section3 > article > .con2  > .con2text > h3{
+        padding-bottom: 20px;
+        margin-top: 5px;
+    }
+    #section3 > article > .con2  > .con2text > p{
+    
+        line-height: 40px;
+        font-size: 18px;
+    }
+ 
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html"> <img src="./images/logo.png" alt="로고"></a>
+        </div>
+        <nav>
+            <ul>
+                <li>병원소개 
+                    <ul class="depth2">
+                        <li><a href="sub1-1.html">병원소개</a></li>
+                        <li><a href="">의료진소개</a></li>
+                    </ul>
+                </li>
+                <li>클리닉 소개
+                    <ul class="depth2">
+                        <li><a href="">임플란트</a></li>
+                        <li><a href="sub1-2.html">교정</a></li>
+                        <li><a href="">미백/성형</a></li>
+                        <li><a href="">치아살리기</a></li>
+                    </ul>
+                </li>
+                <li>스페셜 프로그램
+                    <ul class="depth2">
+                        <li><a href="">스마일 성형</a></li>
+                        <li><a href="">웨딩/면접</a></li>
+                        <li><a href="">맞춤예방</a></li>
+                    </ul>
+                </li>
+                <li>커뮤니티
+                 <ul class="depth2">
+                     <li><a href="">고객의 소리</a></li>
+                     <li><a href="">공지사항</a></li>
+                     <li><a href="">갤러리</a></li>
+                     <li><a href="">자유게시판</a></li>
+                 </ul>
+                 </li>
+                  <li>오시는길
+                  <ul class="depth2">
+                     <li><a href="">오시는길</a></li>
+                     <li><a href="">진료 시간</a></li>
+                     <li><a href="sub4-1.html">온라인 상담</a></li>
+                  </ul>
+                 </li>
+                 </ul>
+        </nav>
+   
+    </header>
+    <section id="section1"> 
+        <div class="slider">
+            <img src="./images/sub1-1.jpg" alt="01">
+        </div>
+
+        <p class="title">병원소개</p>
+        <div class="subnav">
+           <ul>
+               <li><a href="sub1-1.html">병원소개</a></li>
+               <li><a href="sub1-1.html">의료진 소개</a></li>
+           </ul>
+        </div>
+    </section>
+
+    <section id="section2"> 
+        <div class="con1">
+            <h1 data-aos="fade-left">병원 인사말</h1>
+            <img src="./images/intro.png" alt="intro" data-aos="fade-left">
+            <div class="con1Text" data-aos="fade-up" data-aos-duration="2000">
+                <h2>
+                    가장 가까운곳에서<br>
+                    가장 큰 건강을 챙깁니다.
+                </h2>
+                <p>
+                    치아는 우리와 가장 밀접하면서도 익숙하기에<br>
+                    어떻게보면 가장 소홀히할수있는곳입니다.<br>
+                    그만큼 여러가지 환경에 취약하고 항상 위험에<br>
+                    노출되어있습니다.사람은 익숙하지만 언제나<br>
+                    소중하고 존중받아야합니다. 그렇기에 저희 치아역시도<br>
+                    사람처럼보며 최선을다해 책임지고싶습니다.
+                </p>
+            </div>
+        </div>        
+    </section>
+
+    <section id="section3">
+        <h2>
+            환자를 이해하는<br>
+            '사람 그리고 치과' <span style="color: #F08D1C;"> 4가지</span> 약속
+        </h2>
+       <article>
+        <div  class="con2">
+                <img src="./images/con1-1.jpg" alt="con1-1">
+
+            <div class="con2text">
+                <h3> 1. <span style="color: #119FAF;">멸균시스템</span>을 통한 감염관리에 충실하겠습니다.   </h3>
+                <p>
+                    저희 사람그리고치과는 미국 CDC(질병통제예방센터 Center for Disease Control <br>
+                    and Prevention)의 기준에 근거하여 감염관리를 진행하고 있습니다.                     
+                </p>
+            </div>
+            </div>
+        </div>
+        <div  class="con2">
+            <img src="./images/con1-2.jpg" alt="con1-2">
+
+            <div class="con2text">
+                <h3> 2. <span style="color: #119FAF;">정직한 진료</span>를 하겠습니다.   </h3>
+                <p>
+                    치료비를 무조건 싸게 받는 치과가 정직한 치과는 아닙니다. 하지 않아도 되는 치료는<br>
+                    하지 않고 꼭 필요한 치료만 기본과 원칙을 지키면서 시술하는 치과가 <br>
+                    정직한 치과입니다. 
+                </p>
+            </div>
+        </div>
+        <div  class="con2">
+            <img src="./images/con1-3.jpg" alt="con1-3">
+
+            <div class="con2text">
+                <h3> 3. <span style="color: #119FAF;">전문적인 진료</span>을 통한 감염관리에 충실하겠습니다.   </h3>
+                <p>
+                    저희 사람그리고치과는 대학병원에서 수련한 전문의와 충분한 임상경험을 보유한<br>
+                    의사들이 최첨단 의료기기를 사용하여 전공분야별로 전문적 치료를 시행하고 있습니다.                    
+                </p>
+            </div>
+        </div>
+        <div  class="con2">
+            <img src="./images/con1-4.jpg" alt="con1-4">
+
+            <div class="con2text">
+                <h3> 4. <span style="color: #119FAF;">편안한 진료</span>를하겠습니다.   </h3>
+                <p>
+                    저희 사람그리고치과는 미국 CDC(질병통제예방센터 Center for Disease Control <br>
+                    and Prevention)의 기준에 근거하여 감염관리를 진행하고 있습니다.                     
+                </p>
+            </div>
+        </div>
+       </article>        
+    </section>
+
+    <footer>
+        <div class="footer"> 
+            <div class="sns">
+                <a href=""><img src="./images/insta.png" alt="인스타그램"></a>
+                <a href=""><img src="./images/mes.png" alt="메세지"></a>
+                <a href=""><img src="./images/facebook.png" alt="페이스북"></a>
+                <a href=""><img src="./images/youtube.png" alt="유튜브"></a>
+            </div>
+            <ul>
+                <li>시업자 등록번호 144 - 90 - 00465 | 대표 : 송정호 Tel : 031 - 8017 - 2080 | FAX : 031 - 8017 - 2081 </li>
+                <li>경기도 성남시 분당구 삼평동 670번지 유스페이스 1동 306호 </li>
+                
+            </ul>
+            <p>Copyright(c) Human Dental Clinic, LTD , ALL RIGHT RESERVED</p>
+
+        </div>
+    </footer>
+    <script>
+        // AOS 출격준비
+        AOS.init();
+      </script>
+    
+</body>
+</html>
